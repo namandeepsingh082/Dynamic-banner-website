@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -28,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://github.com/namandeepsingh082/Dynamic-banner-website.git",
   "browserslist": {
     "production": [
       ">0.2%",
