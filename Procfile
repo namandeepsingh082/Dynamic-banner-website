@@ -1,1 +1,1 @@
-web: node app-api/server.js
+web: cd app-api && node server.js
