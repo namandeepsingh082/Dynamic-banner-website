@@ -29,7 +29,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://namandeepsingh082.github.io/Dynamic-banner-website",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
